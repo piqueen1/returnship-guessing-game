@@ -14,17 +14,7 @@
   <body>
     <h1 id="title">WWC Guessing Game Challenge</h1>
     <label htmlFor="guess">Guess a number between 1 and 10 (inclusive)</label>
-    <input type="number" name="guess" id="guess" />
-    <p id="message"></p>
-    <script>
-      let guess = document.querySelector('guess');
-      guess.textContent = document.querySelector('#message').value;
-      let message = ''';
-      const randomDigit = Math.floor(Math.random() * 10 + 1);
-
-      if (guess > 10 || guess < 0) {
-        message = 'Inclusive means you can pick those too ;) Try again.';
-      }
-    </script>
+    <input type="number" name="guess" id="input-1" />
+    <script></script>
   </body>
 </html>
